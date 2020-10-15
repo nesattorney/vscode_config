@@ -1,0 +1,16 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Microsoft",
+    "window.zoomLevel": 0,
+    "python.dataScience.askForKernelRestart": false,
+    "window.menuBarVisibility": "default",
+    "workbench.activityBar.visible": false,
+    "remote.SSH.remotePlatform": {
+        "uvcluster.cs.uit.no": "linux"
+    },
+    "git.ignoreLegacyWarning": true,
+    "editor.minimap.enabled": false,
+    "python.showStartPage": false,
+}

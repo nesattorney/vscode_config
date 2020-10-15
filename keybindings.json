@@ -1,0 +1,36 @@
+// Place your key bindings in this file to override the defaults
+[
+        // Toggle between terminal and editor focus
+        { "key": "ctrl+q", "command": "workbench.action.terminal.focus"},
+        {
+                "key": "ctrl+q",
+                "command": "workbench.action.focusActiveEditorGroup",
+                "when": "terminalFocus"
+        },
+        {
+                "key": "ctrl+shift+b",
+                "command": "workbench.action.toggleSidebarVisibility"
+        },
+        {
+                "key": "ctrl+b",
+                "command": "-workbench.action.toggleSidebarVisibility"
+        },
+        {
+                "key": "ctrl+shift+k z",
+                "command": "workbench.action.toggleZenMode"
+        },
+        {
+                "key": "ctrl+k z",
+                "command": "-workbench.action.toggleZenMode"
+        },
+        {
+                "key": "ctrl+\\",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus && !editorReadonly"
+        },
+        {
+                "key": "ctrl+/",
+                "command": "-editor.action.commentLine",
+                "when": "editorTextFocus && !editorReadonly"
+        }
+]
